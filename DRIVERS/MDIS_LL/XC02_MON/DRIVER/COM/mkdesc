@@ -1,0 +1,2 @@
+#!/bin/sh
+mdiswiz -pkg2dsc 13xc0206.xml XC02 

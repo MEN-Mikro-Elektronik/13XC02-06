@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v5 rel. 4 U (http://www.xmlspy.com) by Klaus Popp (MEN Mikro Elektronik GmbH) -->
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="packagedesc.xsd">
+	<name>13xc0206</name>
+	<description>MDIS5 XC02 board controller driver package</description>
+	<date>2011-08-22</date>
+	<revision>1.11</revision>
+	<docroot>DRIVERS/MDIS_LL/XC02_MON/DOC/html/index.html</docroot>
+	<!-- Models -->
+	<modellist>
+		<model>
+			<hwname>XC02</hwname>
+			<modelname>XC02BC</modelname>
+			<description>XC02 monitoring Volt/Temp/Brightness</description>
+			<devtype>MDIS</devtype>
+			<busif>SMBus</busif>
+			<settinglist>
+				<setting>
+				  <name>ID_CHECK</name>
+				  <description>Define if firmware ID is checked</description>
+				  <type>U_INT32</type>
+				  <defaultvalue>1</defaultvalue>
+				  <choises>
+					<choise>
+					  <value>1</value>
+					  <description>enable ID check</description>
+					</choise>
+					<choise>
+					  <value>0</value>
+					  <description>disable ID check</description>
+					</choise>
+				  </choises>
+				</setting>
+				<setting>
+					<name>SMB_BUSNBR</name>
+					<description>SM Bus number</description>
+					<type>U_INT32</type>
+					<value>0</value>
+					<defaultvalue>0</defaultvalue>
+				</setting>
+				<setting>
+				  <name>SMB_DEVADDR</name>
+				  <description>SMBus address Windows 0x12, Linux 0x09</description>
+				  <type>U_INT32</type>
+				  <value>0x12</value>
+				  <defaultvalue>0x12</defaultvalue>
+				  <maxvalue>0x7f</maxvalue>
+				</setting>
+				<setting>
+				  <name>WDOG_TOUT</name>
+				  <description>Watchdog timeout in 100ms units</description>
+				  <type>U_INT32</type>
+				  <defaultvalue>0x00</defaultvalue>
+				  <maxvalue>0xff</maxvalue>
+				</setting>
+				<setting>
+				  <name>DOWN_DELAY</name>
+				  <description>Shutdown delay</description>
+				  <type>U_INT32</type>
+				  <defaultvalue>0x00</defaultvalue>
+				  <maxvalue>0x7</maxvalue>
+				</setting>
+				<setting>
+				  <name>OFF_DELAY</name>
+				  <description>Off delay mode</description>
+				  <type>U_INT32</type>
+				  <defaultvalue>0x00</defaultvalue>
+				  <maxvalue>0x5</maxvalue>
+				</setting>
+				<setting>
+				  <name>BRIGHT_SOURCE</name>
+				  <description>Brightness control source</description>
+				  <type>U_INT32</type>
+				  <defaultvalue>0</defaultvalue>
+				  <choises>
+					<choise>
+					  <value>1</value>
+					  <description>via optional photodiode</description>
+					</choise>
+					<choise>
+					  <value>0</value>
+					  <description>via SMBus commands</description>
+					</choise>
+				  </choises>
+				</setting>
+				<setting>
+				  <name>INIT_DISPSTAT</name>
+				  <description>Initial display state</description>
+				  <type>U_INT32</type>
+				  <defaultvalue>1</defaultvalue>
+				  <choises>
+					<choise>
+					  <value>0</value>
+					  <description>screen 1: off  optional screen 2: off</description>
+					</choise>
+					<choise>
+					  <value>1</value>
+					  <description>screen 1: on   optional screen 2: off</description>
+					</choise>
+					<choise>
+					  <value>2</value>
+					  <description>screen 1: off  optional screen 2:  on</description>
+					</choise>
+					<choise>
+					  <value>3</value>
+					  <description>screen 1: on   optional screen 2:  on</description>
+					</choise>
+				  </choises>
+				</setting>
+				<setting>
+				  <name>INIT_BRIGHT_1</name>
+				  <description>Initial brightness of display 1</description>
+				  <type>U_INT32</type>
+				  <defaultvalue>0x64</defaultvalue>
+				  <maxvalue>0xc8</maxvalue>
+				</setting>
+				<setting>
+				  <name>INIT_BRIGHT_2</name>
+				  <description>Initial brightness of optional display 2</description>
+				  <type>U_INT32</type>
+				  <defaultvalue>0x64</defaultvalue>
+				  <maxvalue>0xc8</maxvalue>
+				</setting>
+				<setting>
+				  <name>TEMP_HIGH</name>
+				  <description>Max. display switchoff temperature</description>
+				  <type>U_INT32</type>
+				  <defaultvalue>0xff</defaultvalue>
+				  <maxvalue>0xff</maxvalue>
+				</setting>
+				<setting>
+				  <name>TEMP_LOW</name>
+				  <description>Min. display switchoff temperature</description>
+				  <type>U_INT32</type>
+				  <defaultvalue>0x00</defaultvalue>
+				  <maxvalue>0xff</maxvalue>
+				</setting>
+				<setting>
+				  <name>VOLT_HIGH</name>
+				  <description>Max. display switchoff DCDC voltage</description>
+				  <type>U_INT32</type>
+				  <defaultvalue>0xff</defaultvalue>
+				  <maxvalue>0xff</maxvalue>
+				</setting>
+				<setting>
+				  <name>VOLT_LOW</name>
+				  <description>Min. display switchoff DCDC voltage</description>
+				  <type>U_INT32</type>
+				  <defaultvalue>0x00</defaultvalue>
+				  <maxvalue>0xff</maxvalue>
+				</setting>
+			</settinglist>
+			<swmodulelist>
+				<swmodule swap="false">
+					<name>xc02</name>
+					<description>XC02 BC driver</description>
+					<type>Low Level Driver</type>
+					<makefilepath>XC02_MON/DRIVER/COM/driver.mak</makefilepath>
+				</swmodule>
+			</swmodulelist>
+		</model>
+  </modellist>
+	<!-- Global software modules -->
+	<swmodulelist>
+		<swmodule>
+			<name>xc02_simp</name>
+			<description>Simple example program for the driver</description>
+			<type>Driver Specific Tool</type>
+			<makefilepath>XC02_MON/EXAMPLE/XC02_SIMP/COM/program.mak</makefilepath>
+		</swmodule>
+		<swmodule>
+			<name>xc02_ctrl</name>
+			<description>example program for the XC02 BC driver</description>
+			<type>Driver Specific Tool</type>
+			<makefilepath>XC02_MON/TOOLS/XC02_CTRL/COM/program.mak</makefilepath>
+		</swmodule>
+		<swmodule>
+			<name>xc02_test</name>
+			<description>test program for the XC02 BC driver</description>
+			<type>Driver Specific Tool</type>
+			<makefilepath>XC02_MON/TOOLS/XC02_TEST/COM/program.mak</makefilepath>
+		</swmodule>
+  </swmodulelist>
+</package>

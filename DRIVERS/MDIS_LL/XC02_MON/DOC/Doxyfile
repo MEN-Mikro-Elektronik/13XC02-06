@@ -1,0 +1,27 @@
+@INCLUDE_PATH = $(MEN_DOXYGENTMPL)
+@INCLUDE = DoxyfileCommon
+
+PROJECT_NAME           = "XC2 (DC1 carrier board) board controller driver"
+INPUT                  = ../DRIVER/COM/ \
+					     ../TOOLS/XC02_CTRL/COM/xc02_ctrl.c \
+					     ../EXAMPLE/XC02_SIMP/COM/xc02_simp.c \
+                         $(MEN_COM_INC)/MEN/xc02_drv.h \
+                         $(MEN_COM_INC)/MEN/wdog.h \            
+                         $(MEN_COM_INC)/MEN/xc02.h \
+						 ../DRIVER/COM/xc02bc_min.dsc \
+						 ../DRIVER/COM/xc02bc_max.dsc
+
+EXAMPLE_RECURSIVE      = YES
+EXAMPLE_PATH           = ../TOOLS/XC02_CTRL/COM/ \
+					   	 ../EXAMPLE/XC02_SIMP/COM/ \
+						 ../DRIVER/COM/
+OUTPUT_DIRECTORY       = .
+EXTRACT_ALL            = YES
+EXTRACT_STATIC         = YES
+GENERATE_HTMLHELP      = YES
+WARNINGS               = YES
+WARN_IF_DOC_ERROR      = YES
+WARN_IF_UNDOCUMENTED   = YES
+GENERATE_HTMLHELP      = YES
+TAGFILES               = ../../../../LIBSRC/MDIS_API/DOC/mdis_api.tag=../../../../../LIBSRC/MDIS_API/DOC/html
+GENERATE_TAGFILE       = xc02_mon.tag
