@@ -118,8 +118,7 @@ static void __MAPILIB SigHandler(u_int32 sigCode);
  */
 static void usage(void)
 {
-    printf( "xc02_ctrl [<opts>] <device> [<opts>]    Built: %s %s\n",
-            __DATE__, __TIME__ );
+    printf( "xc02_ctrl [<opts>] <device> [<opts>]\n");
     printf(
   "Function: access MEN DCx display controller functions\n"
   "Options:\n"

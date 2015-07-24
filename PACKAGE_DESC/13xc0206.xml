@@ -3,8 +3,8 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="packagedesc.xsd">
 	<name>13xc0206</name>
 	<description>MDIS5 XC02 board controller driver package</description>
-	<date>2011-08-22</date>
-	<revision>1.11</revision>
+	<date>2015-07-24</date>
+	<revision>1.12</revision>
 	<docroot>DRIVERS/MDIS_LL/XC02_MON/DOC/html/index.html</docroot>
 	<!-- Models -->
 	<modellist>
