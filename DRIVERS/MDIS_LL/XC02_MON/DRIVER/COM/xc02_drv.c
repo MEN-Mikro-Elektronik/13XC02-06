@@ -1485,7 +1485,7 @@ static int32 XC02_Info(
 )
 {
     int32   error = ERR_SUCCESS;
-    va_list argptr=(void*)0;
+    va_list argptr;
 
     va_start(argptr, infoType );
 
