@@ -12,65 +12,24 @@
  *
  *     \switches _ONE_NAMESPACE_PER_DRIVER_
  */
- /*-------------------------------[ History ]--------------------------------
- *
- * $Log: xc02_drv.c,v $
- * Revision 1.11  2011/08/22 18:11:52  ts
- * R: MDVE run warned about uninitialised va_argptr
- * M: initialize va_argptr with (void*)0 (NULL is not known under all OS)
- *
- * Revision 1.10  2011/08/19 19:44:07  ts
- * R: 1. PIC FW power up behavior can be configured (KEY_IN or always on)
- *    2. PIC FW provides raw ADC photo Value from photo sensor
- *    3. auto brightness control behavior can be configure
- * M: 1. added Set/GetStat XC02_KEY_IN_CTRL
- *    2. added GetStat XC02_RAW_BRIGHTNESS
- *    3. added Set/GetStat XC02_AUTO_BRIGHT_CTRL
- *
- * Revision 1.9  2009/09/04 12:13:47  MRoth
- * R: Porting to MDIS5
- * M: a) added support for 64bit (Set/GetStat prototypes)
- *    b) added casts to avoid compiler warnings
- *
- * Revision 1.8  2009/06/22 10:50:28  ts
- * R: firmware offers possibility to adjust auto brightness control finer
- *    with offset and multiplier
- * M: added SetStats XC02_BR_OFFS and XC02_BR_MULT
- *
- * Revision 1.7  2009/03/24 16:56:51  ts
- * R: 1) initial brightness of both displays shall be user controlled
- *    2) unnecessary SMB writes were done in XC02_Init
- * M: 1) SetStat XC02_INIT_BRIGHT added
- *    2) do SMB writes only for values whose descriptor keys are present
- *
- * Revision 1.6  2009/02/26 10:54:32  ts
- * R: 1) new Revision XC02-01 with 2nd display has to be supported
- * M: 1) support for additional SetStats for 2nd display switch/brightness,
- *    minicard power and other signals added
- *
- * Revision 1.5  2008/12/09 12:50:38  ts
- * R: final checkin for release
- *
- * Revision 1.4  2008/12/08 18:55:35  ts
- * R: 1) more thorough debug facilities needed
- *    2) GetStats for min and max. supervised voltage were missing
- * M: 1) added DBGWRT macros to each Get and SetStat
- *    2) GetStats XC02_VOLT_MIN/MAX added
- *
- * Revision 1.3  2008/11/25 10:52:03  ts
- * R: Cosmetics, some defines from AD78 were left
- *
- * Revision 1.2  2008/09/05 17:51:43  ts
- * R: 1. PIC firmware defines for SMBus commands were renamed to XC02C_..
- * M: 1. renamed all calls in Get/SetStat to use new defines
- *
- * Revision 1.1  2008/09/04 11:43:13  ts
- * Initial Revision
- *
- *
+ /*
  *---------------------------------------------------------------------------
  * (c) Copyright by MEN Mikro Elektronik GmbH, Nuernberg, Germany
  ****************************************************************************/
+/*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 2 of the License, or
+* (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
 
 #define _NO_LL_HANDLE		/* ll_defs.h: don't define LL_HANDLE struct */
 

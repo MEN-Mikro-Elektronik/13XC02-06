@@ -10,20 +10,24 @@
  *     Required: libraries: mdis_api
  *     \switches (none)
  */
- /*-------------------------------[ History ]--------------------------------
- *
- * $Log: xc02_simp.c,v $
- * Revision 1.2  2009/09/04 12:13:54  MRoth
- * R: Porting to MDIS5
- * M: added support for 64bit (MDIS_PATH)
- *
- * Revision 1.1  2008/11/24 12:11:40  ts
- * Initial Revision
- *
- *
+ /*
  *---------------------------------------------------------------------------
  * (c) Copyright 2005 by MEN mikro elektronik GmbH, Nuernberg, Germany
  ****************************************************************************/
+/*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 2 of the License, or
+* (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
 
 static const char RCSid[]="$Id: xc02_simp.c,v 1.2 2009/09/04 12:13:54 MRoth Exp $";
 

@@ -12,31 +12,24 @@
  *
  *     \switches -
  */
- /*-------------------------------[ History ]--------------------------------
- *
- * $Log: xc02_doc.c,v $
- * Revision 1.5  2009/09/04 12:13:49  MRoth
- * R: Porting to MDIS5
- * M: Changed description to MDIS5; added compatibility hint
- *
- * Revision 1.4  2009/06/22 12:21:49  ts
- * R: support of additional 2nd display in INIT_DISPSTAT was not mentioned
- * M: added description of states 2 and 3
- *
- * Revision 1.3  2009/03/24 18:17:41  ts
- * R: possibility to control initial brightness by user needed
- * M: description of 2 addidional system descriptors added
- *
- * Revision 1.2  2008/12/09 12:47:01  ts
- * R: recommended changes from PUMA department worked in
- *
- * Revision 1.1  2008/12/09 12:22:24  ts
- * Initial Revision
- *
- *
+ /*
  *---------------------------------------------------------------------------
  * (c) Copyright 2005 by MEN Mikro Elektronik GmbH, Nuernberg, Germany
  ****************************************************************************/
+/*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 2 of the License, or
+* (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
 
 /*! \mainpage
     This is the documentation of the MDIS5 XC2 board controller driver that

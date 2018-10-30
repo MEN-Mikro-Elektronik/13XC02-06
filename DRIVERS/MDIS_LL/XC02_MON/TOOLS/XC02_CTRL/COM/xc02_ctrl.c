@@ -10,64 +10,24 @@
  *     Required: libraries: mdis_api, usr_oss, usr_utl
  *     \switches (none)
  */
- /*-------------------------------[ History ]--------------------------------
- *
- * $Log: xc02_ctrl.c,v $
- * Revision 1.10  2011/08/19 19:48:37  ts
- * R: 1. PIC FW power up behavior can be configured (KEY_IN or always on)
- *    2. PIC FW provides raw ADC photo Value from photo sensor
- *    3. auto brightness control behavior can be configure
- * M: 1. added command to access Set/GetStat XC02_KEY_IN_CTRL
- *    2. added command to access GetStat XC02_RAW_BRIGHTNESS
- *    3. added command to access Set/GetStat XC02_AUTO_BRIGHT_CTRL
- *
- * Revision 1.9  2009/09/04 12:13:52  MRoth
- * R: Porting to MDIS5
- * M: added support for 64bit (MDIS_PATH)
- *
- * Revision 1.8  2009/06/20 13:31:05  ts
- * R: auto brightness behaviour made adjustable in firmware
- * M: added options -m,-q and -t to read auto brightness offset,
- *    multiplier and temperature
- *
- * Revision 1.7  2009/03/24 19:48:35  ts
- * R: 1) user could not set an initial brightness for the displays
- *    2) bugfix: display protect status wasnt displayed correct
- * M: 1) new option -a to set initial brightness for both displays
- *    2) corrected bitmask in driver and display status in own line
- *
- * Revision 1.6  2009/02/26 10:56:48  ts
- * R: 1) new Revision XC02-01 with 2nd display has to be supported
- * M: 1) added options -o to select 1st or 2nd display and -m for
- *    minicard power
- *
- * Revision 1.5  2008/12/12 16:27:08  ts
- * R: non ASCII chars in -i info dump cause Windows to display wrong characters
- * M: replaced temperature info to "degree Celsius"
- *
- * Revision 1.4  2008/12/09 11:37:20  ts
- * R: final tests and cosmetics
- *
- * Revision 1.3  2008/12/08 18:58:30  ts
- * R: Info about more internal data was missing
- * M: added GetStat calls to retrieve several settings, like
- *    min/max voltage, brightness and initial display status
- *
- * Revision 1.2  2008/11/25 10:55:44  ts
- * R: 1. UOS_SigInst call causes error on windows build
- *    2: Cosmetics, usage text was not up to date
- *    3: SW shutdown wasnt initiated
- * M: 1. added specifier _MAPILIB
- *    2: corrected usage text, added how to specify numbers
- *    3: changed option s to accept a value (magic 0xa8 is expected)
- *
- * Revision 1.1  2008/09/04 11:47:04  ts
- * Initial Revision
- *
- *
+ /*
  *---------------------------------------------------------------------------
  * (c) Copyright 2009 by MEN mikro elektronik GmbH, Nuremberg, Germany
  ****************************************************************************/
+/*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 2 of the License, or
+* (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
 
 #include <stdio.h>
 #include <stdlib.h>

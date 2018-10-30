@@ -10,29 +10,24 @@
  *     Required: libraries: mdis_api, usr_oss, usr_utl
  *     \switches (none)
  */
- /*-------------------------------[ History ]--------------------------------
- *
- * $Log: xc02_test.c,v $
- * Revision 1.4  2011/08/22 18:14:33  ts
- * R: MDVE warning about difference (signed/unsigned) in parameter wdogErr
- * M: changed parameter to int32
- *
- * Revision 1.3  2009/09/04 12:13:56  MRoth
- * R: Porting to MDIS5
- * M: a) added support for 64bit (MDIS_PATH)
- *    b) added casts to avoid compiler warnings
- *
- * Revision 1.2  2008/12/08 18:59:53  ts
- * R: regression test for every Get/SetStat was missing
- * M: added test -n which writes/reads every Get/SetStat in the driver
- *
- * Revision 1.1  2008/09/04 11:48:13  ts
- * Initial Revision
- *
- *
+ /*
  *---------------------------------------------------------------------------
  * (c) Copyright 2006 by MEN mikro elektronik GmbH, Nuernberg, Germany
  ****************************************************************************/
+/*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 2 of the License, or
+* (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
 
 #include <stdio.h>
 #include <stdlib.h>

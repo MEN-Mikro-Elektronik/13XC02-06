@@ -13,70 +13,24 @@
  *    \switches  _ONE_NAMESPACE_PER_DRIVER_
  *               _LL_DRV_
  */
- /*-------------------------------[ History ]--------------------------------
- *
- * $Log: xc02_drv.h,v $
- * Revision 3.12  2011/08/19 19:45:19  ts
- * R: 1. PIC FW power up behavior can be configured (KEY_IN or always on)
- *    2. PIC FW provides raw ADC photo Value from photo sensor
- *    3. auto brightness control behavior can be configure
- * M: 1. added Set/GetStat XC02_KEY_IN_CTRL
- *    2. added GetStat XC02_RAW_BRIGHTNESS
- *    3. added Set/GetStat XC02_AUTO_BRIGHT_CTRL
- *
- * Revision 3.11  2011/08/05 16:46:06  ts
- * R: driver couldnt access brightness reverse control feature and raw foto ADC
- * M> added set/getstats to access the features
- *
- * Revision 3.10  2011/03/31 16:39:36  ts
- * R: passing max. Temp setting for DC6 to 94 degree not possible
- * M: raised max. temp limit to pass to PIC from 85 degree to 100
- *
- * Revision 3.9  2010/05/20 16:08:27  ts
- * R: new board SC21 provides current Measurement
- * M: added GetStat for current measurement on 12V rail
- *
- * Revision 3.8  2009/09/04 12:13:58  MRoth
- * R: driver ported to MDIS5, new MDIS_API and men_typs
- * M: for backward compatibility to MDIS4 optionally define new types
- *
- * Revision 3.7  2009/06/22 12:06:05  ts
- * R: XC02 supports adjustment of brightness behaviour (offset/multiplier)
- * M: additional Setstats XC02_BR_OFFS and XC02_BR_MULT added
- *
- * Revision 3.6  2009/03/24 16:48:29  ts
- * R: 1) initial brightness of both displays shall be user controlled
- * M: 1) SetStat XC02_INIT_BRIGHT added
- *
- * Revision 3.5  2009/01/20 18:19:53  ts
- * R: new revision R01 of XC2 with PIC16F917 and 2nd display support
- * M: added SetStats for mini PCIe card switching and 2nd display brightness
- *
- * Revision 3.4  2008/12/08 19:02:38  ts
- * R: 1) Cosmetics, Get/SetStat defines were unordered
- *    2) GetStats for low and high voltage were missing
- * M: 1) renumbered all Stats
- *    2) added XC02_VOLT_LOW and XC02_VOLT_HIGH
- *
- * Revision 3.3  2008/12/08 11:23:06  ts
- * R: 1) defines for ONACK stats were still present
- *    2) english language and other bugs were found by PUMA
- * M: 1) removed defines
- *    2) corrected doxygen comments, reviewed by PUMA
- *
- * Revision 3.2  2008/09/16 13:17:45  ts
- * R: 1. defines derived from AD78 driver were still used
- *    2. headerfile contained global char array with temp/voltage conversions
- * M: 1. renamed all defines and Get/SetStats to prefix XC02_
- *    2. Macros defined to proper convert temp/voltage (for LM50)
- *
- * Revision 3.1  2008/09/05 17:55:43  ts
- * Initial Revision in new MDIS compatible directory structure
- *
- *
+ /*
  *---------------------------------------------------------------------------
  * (c) Copyright by MEN Mikro Elektronik GmbH, Nuernberg, Germany
  ****************************************************************************/
+/*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 2 of the License, or
+* (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
 
 #ifndef _XC02_DRV_H
 #define _XC02_DRV_H
