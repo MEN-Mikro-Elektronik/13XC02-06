@@ -10,70 +10,7 @@
  *                      
  *     Switches: -
  */
-/*-------------------------------[ History ]---------------------------------
- *
- * $Log: xc02.h,v $
- * Revision 3.14  2011/08/05 16:43:02  ts
- * R: threshold value for temperature was too wide (ca. 10 degree)
- * M: reduced value TEMP_THRESH to 0x03 instead 0x08 (=4-5 degree)
- *
- * Revision 3.13  2011/04/26 20:08:56  ts
- * R: unnecessary warning about Temp. tresh. was shown
- * M: removed warning
- *
- * Revision 3.12  2011/04/07 17:50:27  ts
- * R: 1) temp hysteresis showed to be too small in climate chamber
- *    2) commands KEY_CTRL and USER_LED were not official yet
- * M: 1) set TEMP_TRESH to 8 to allow about 10 degree hysteresis
- *    2) included defines to header file
- *
- * Revision 3.11  2010/10/08 18:17:16  ts
- * R: customer needed access to raw ADC value from photo sensor
- * M: added RAW register 0x35
- *
- * Revision 3.10  2010/05/20 16:07:06  ts
- * R: new board SC21 is available, new Variants for different displays
- * M: added commands for current measurement and auto brightness direction
- *
- * Revision 3.9  2009/07/17 18:04:05  ts
- * R: only primary display was on after power up
- * M: changed define XC02_DEFAULT_DISP_STAT to 0x3
- *
- * Revision 3.8  2009/05/11 19:28:30  ts
- * R: 1) auto brightness too low in indoor environments
- *    2) ONACK feature was removed but customer demanded
- * M: 1) added commands to let user set offset and multiplier values
- *       for fotodiode ADC Value
- *
- * Revision 3.7  2009/03/24 16:47:10  ts
- * R: 1) initial brightness of both displays shall be user controlled
- * M: 1) additional SMB commands added
- *
- * Revision 3.6  2009/01/20 18:18:19  ts
- * R: new revision R01 of XC2 with PIC16F917 and 2nd display support
- * M: added SMB commands for mini PCIe card power and 2nd display brightness
- *
- * Revision 3.5  2008/12/08 11:20:04  ts
- * R: define for max. ONACK errors was still present, cosmetics
- *
- * Revision 3.4  2008/10/17 11:40:44  ts
- * R: Not possible for MDIS driver to check if display is in protect state
- * M: added bit1 to STATUS read command to signal normal(0) or protect state (1)
- *
- * Revision 3.3  2008/10/15 18:34:12  ts
- * R: unnecessary defines for SMB ON acknowledge were still present
- * M: removed defines
- *
- * Revision 3.2  2008/09/16 13:29:08  ts
- * R: 1.defines were still derived from AD78 firmware
- *    2.unnecessary macros for temp/voltage conversion
- * M: 1.all defines changed to prefix XC02C_
- *    2.moved all conversions to xc02_drv.h (done at CPU side). The PIC itself
- *    does only pass/receive raw ADC data for temp and voltage.
- *
- * Revision 3.1  2008/09/05 17:55:42  ts
- * Initial Revision in MDIS conform directory
- *
+/*
  *---------------------------------------------------------------------------
  * (c) Copyright 2006 by MEN Mikro Elektronik GmbH, Nuremberg, Germany 
  ****************************************************************************/
