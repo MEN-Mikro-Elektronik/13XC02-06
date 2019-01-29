@@ -308,10 +308,11 @@ int main( int argc, char *argv[])
 	arg_initstate = ((str = UTL_TSTOPT("z=")) ? atoi(str) : -1);
 	
     tempHigh      = ((str = UTL_TSTOPT("T=")) ? atoi(str) : NONE);
+    (void) tempHigh;
 
     /* sanity check of passed args */
     if ( (arg_tempLo < TEMP_INF) && (arg_tempHi < TEMP_INF)) {
-        CHK( (arg_tempLo < arg_tempHi), "low temp above high temp");
+        CHK( (arg_tempHi-arg_tempLo), "low temp above high temp");
     }
 
     /*--------------------+
