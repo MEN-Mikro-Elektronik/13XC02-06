@@ -6,15 +6,8 @@
 #
 #    Description: Makefile definitions for the XC02_MON example program
 #
-#---------------------------------[ History ]---------------------------------
-#
-#   $Log: program.mak,v $
-#   Revision 1.1  2008/11/24 12:11:39  ts
-#   Initial Revision
-#
-#
 #-----------------------------------------------------------------------------
-#   (c) Copyright 2005 by MEN mikro elektronik GmbH, Nuernberg, Germany
+#   Copyright (c) 2005-2019, MEN Mikro Elektronik GmbH
 #*****************************************************************************
 
 MAK_NAME=xc02_simp

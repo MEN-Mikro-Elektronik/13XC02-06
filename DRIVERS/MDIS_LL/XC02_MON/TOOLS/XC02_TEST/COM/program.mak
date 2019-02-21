@@ -6,15 +6,8 @@
 #
 #    Description: Makefile definitions for XC02_TEST tool
 #
-#---------------------------------[ History ]---------------------------------
-#
-#   $Log: program.mak,v $
-#   Revision 1.1  2008/09/04 11:48:12  ts
-#   Initial Revision
-#
-#
 #-----------------------------------------------------------------------------
-#   (c) Copyright 2006 by MEN mikro elektronik GmbH, Nuernberg, Germany
+#   Copyright (c) 2006-2019, MEN Mikro Elektronik GmbH
 #*****************************************************************************
 
 MAK_NAME=xc02_test

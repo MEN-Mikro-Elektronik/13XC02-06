@@ -6,22 +6,8 @@
 #
 #    Description: Makefile definitions for XC02_CTRL tool
 #
-#---------------------------------[ History ]---------------------------------
-#
-#   $Log: program.mak,v $
-#   Revision 1.3  2008/12/09 11:38:22  ts
-#   R: file missed in correct place in repository
-#
-#   Revision 1.2  2008/11/24 12:10:16  ts
-#   R: ad78c.h was still included
-#   M: changed to include xc02c.h
-#
-#   Revision 1.1  2008/09/04 11:47:03  ts
-#   Initial Revision
-#
-#
 #-----------------------------------------------------------------------------
-#   (c) Copyright 2006 by MEN mikro elektronik GmbH, Nuernberg, Germany
+#   Copyright (c) 2006-2019, MEN Mikro Elektronik GmbH
 #*****************************************************************************
 
 MAK_NAME=xc02_ctrl

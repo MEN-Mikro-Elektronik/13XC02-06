@@ -6,22 +6,8 @@
 #
 #    Description: Makefile definitions for the XC02BC driver
 #
-#---------------------------------[ History ]---------------------------------
-#
-#   $Log: driver.mak,v $
-#   Revision 1.3  2008/12/09 12:45:44  ts
-#   R: Cosmetics, fixed revision texts and description
-#
-#   Revision 1.2  2008/11/25 10:52:37  ts
-#   R: warning during MDVE run
-#   M: added include of xc02.h and smb2.h
-#
-#   Revision 1.1  2008/09/04 11:43:11  ts
-#   Initial Revision
-#
-#
 #-----------------------------------------------------------------------------
-#   (c) Copyright 2005 by MEN mikro elektronik GmbH, Nuernberg, Germany
+#   Copyright (c) 2005-2019, MEN Mikro Elektronik GmbH
 #*****************************************************************************
 
 MAK_NAME=xc02
