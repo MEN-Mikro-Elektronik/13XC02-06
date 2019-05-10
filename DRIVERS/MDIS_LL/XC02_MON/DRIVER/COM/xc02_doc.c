@@ -237,7 +237,7 @@
 /** \example xc02bc_max.dsc */
 
 /*!
-  \page
+  \page xc02dummy MEN logo
   \menimages
 */
 
