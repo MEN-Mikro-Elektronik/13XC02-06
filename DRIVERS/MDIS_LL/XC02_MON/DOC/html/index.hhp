@@ -35,6 +35,7 @@ functions.html
 functions_vars.html
 structLL__HANDLE.html
 structXC02__BLK__DOWN__SIG.html
+xc02dummy.html
 group____XC02.html
 group____XC02__DOWN__DELAY.html
 group____XC02__OFF__DELAY.html
@@ -48,3 +49,4 @@ globals_type.html
 globals_enum.html
 globals_eval.html
 globals_defs.html
+pages.html

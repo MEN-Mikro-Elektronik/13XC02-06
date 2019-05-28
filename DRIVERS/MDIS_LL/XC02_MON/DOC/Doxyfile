@@ -1,7 +1,7 @@
 @INCLUDE_PATH = $(MEN_DOXYGENTMPL)
 @INCLUDE = DoxyfileCommon
 
-#MDIS_COMMIT=
+#MDIS_COMMIT=97f5e4a30c21bd8bc502f5cc3424c1fcf4a288a6
 
 PROJECT_NAME           = "XC2 (DC1 carrier board) board controller driver"
 INPUT                  = ../DRIVER/COM/ \
