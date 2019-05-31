@@ -3,8 +3,6 @@
  *        \file  xc02_drv.h
  *
  *      \author  thomas.schnuerer@men.de
- *        $Date: 2011/08/19 19:45:19 $
- *    $Revision: 3.12 $
  *
  *       \brief  Header file for XC02 driver containing
  *               MDIS side Get/SetStats. PIC-side commands are in xc02.h

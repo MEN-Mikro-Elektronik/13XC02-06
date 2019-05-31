@@ -3,8 +3,6 @@
  *        \file  xc02_drv.c
  *
  *      \author  thomas.schnuerer@men.de
- *        $Date: 2011/08/22 18:11:52 $
- *    $Revision: 1.11 $
  *
  *      \brief   Low-level driver for PIC on SMBus at XC02 MEN DC carrier
  *

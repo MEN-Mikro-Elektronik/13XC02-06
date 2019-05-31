@@ -2,8 +2,6 @@
 /*!
  *         \file xc02_test.c
  *       \author thomas.schnuerer@men.de
- *        $Date: 2011/08/22 18:14:33 $
- *    $Revision: 1.4 $
  *
  *        \brief regression Test tool for 13xc02-06 driver Get/Setstats
  *

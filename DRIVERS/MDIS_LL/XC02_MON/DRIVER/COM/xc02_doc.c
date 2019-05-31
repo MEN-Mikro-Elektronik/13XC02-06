@@ -3,8 +3,6 @@
  *        \file  xc02_doc.c
  *
  *      \author  ts
- *        $Date: 2009/09/04 12:13:49 $
- *    $Revision: 1.5 $
  *
  *      \brief   User documentation for XC02BC driver
  *

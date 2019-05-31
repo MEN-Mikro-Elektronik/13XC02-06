@@ -2,8 +2,6 @@
 /*!
  *         \file xc02_simp.c
  *       \author thomas.schnuerer@men.de
- *        $Date: 2009/09/04 12:13:54 $
- *    $Revision: 1.2 $
  *
  *       \brief  Simple example program for the XC02 monitoring driver
  *

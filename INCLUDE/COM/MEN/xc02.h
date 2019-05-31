@@ -3,8 +3,6 @@
  *        \file  xc02.h
  *
  *      \author  thomas.schnuerer@men.de
- *        $Date: 2011/08/05 16:43:02 $
- *    $Revision: 3.14 $
  * 
  *  	 \brief  Header file for XC02 MEN DC board controller 
  *                      

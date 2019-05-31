@@ -1,8 +1,6 @@
 #***************************  M a k e f i l e  *******************************
 #
 #         Author: ts
-#          $Date: 2008/11/24 12:11:39 $
-#      $Revision: 1.1 $
 #
 #    Description: Makefile definitions for the XC02_MON example program
 #
@@ -23,6 +21,11 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 MAK_NAME=xc02_simp
+# the next line is updated during the MDIS installation
+STAMPED_REVISION="13XC02-06_01_14-6-g1524e9a-dirty_2019-05-30"
+
+DEF_REVISION=MAK_REVISION=$(STAMPED_REVISION)
+MAK_SWITCH=$(SW_PREFIX)$(DEF_REVISION)
 
 MAK_LIBS=$(LIB_PREFIX)$(MEN_LIB_DIR)/mdis_api$(LIB_SUFFIX) \
          $(LIB_PREFIX)$(MEN_LIB_DIR)/usr_oss$(LIB_SUFFIX)

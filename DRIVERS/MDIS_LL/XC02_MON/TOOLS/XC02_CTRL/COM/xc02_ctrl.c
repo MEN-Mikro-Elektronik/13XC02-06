@@ -2,8 +2,6 @@
 /*!
  *         \file xc02_ctrl.c
  *       \author ts
- *        $Date: 2011/08/19 19:48:37 $
- *    $Revision: 1.10 $
  *
  *        \brief Tool to control XC02 PIC
  *

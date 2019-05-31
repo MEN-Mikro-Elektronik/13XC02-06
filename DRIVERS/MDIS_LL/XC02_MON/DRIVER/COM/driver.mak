@@ -1,8 +1,6 @@
 #***************************  M a k e f i l e  *******************************
 #
 #         Author: ts
-#          $Date: 2008/12/09 12:45:44 $
-#      $Revision: 1.3 $
 #
 #    Description: Makefile definitions for the XC02BC driver
 #
@@ -23,8 +21,13 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 MAK_NAME=xc02
+# the next line is updated during the MDIS installation
+STAMPED_REVISION="13XC02-06_01_14-6-g1524e9a-dirty_2019-05-30"
 
-MAK_SWITCH=$(SW_PREFIX)MAC_IO_MAPPED
+DEF_REVISION=MAK_REVISION=$(STAMPED_REVISION)
+
+MAK_SWITCH=$(SW_PREFIX)MAC_IO_MAPPED \
+		$(SW_PREFIX)$(DEF_REVISION)
 
 MAK_LIBS=$(LIB_PREFIX)$(MEN_LIB_DIR)/desc$(LIB_SUFFIX)	\
          $(LIB_PREFIX)$(MEN_LIB_DIR)/oss$(LIB_SUFFIX)	\
