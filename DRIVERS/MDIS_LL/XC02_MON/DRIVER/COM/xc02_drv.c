@@ -104,6 +104,8 @@ typedef struct {
 #include <MEN/ll_entry.h>   /* low-level driver jump table  */
 #include <MEN/xc02_drv.h>	/* XC02 driver header file */
 
+static const char IdentString[]=MENT_XSTR(MAK_REVISION);
+
 /*-----------------------------------------+
 |  PROTOTYPES                              |
 +-----------------------------------------*/
@@ -1530,7 +1532,7 @@ static int32 XC02_Info(
  */
 static char* Ident( void )
 {
-    return( "$Id $" );
+    return( (char*) IdentString );
 }
 
 /********************************* Cleanup *********************************/
