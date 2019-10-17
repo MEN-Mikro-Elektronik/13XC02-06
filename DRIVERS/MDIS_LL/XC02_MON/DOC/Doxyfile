@@ -5,18 +5,16 @@
 
 PROJECT_NAME           = "XC2 (DC1 carrier board) board controller driver"
 INPUT                  = ../DRIVER/COM/ \
-					     ../TOOLS/XC02_CTRL/COM/xc02_ctrl.c \
-					     ../EXAMPLE/XC02_SIMP/COM/xc02_simp.c \
+                         ../TOOLS/XC02_CTRL/COM/xc02_ctrl.c \
+                         ../EXAMPLE/XC02_SIMP/COM/xc02_simp.c \
                          $(MEN_COM_INC)/MEN/xc02_drv.h \
-                         $(MEN_COM_INC)/MEN/wdog.h \            
-                         $(MEN_COM_INC)/MEN/xc02.h \
-						 ../DRIVER/COM/xc02bc_min.dsc \
-						 ../DRIVER/COM/xc02bc_max.dsc
+                         $(MEN_COM_INC)/MEN/wdog.h \
+                         $(MEN_COM_INC)/MEN/xc02.h
 
 EXAMPLE_RECURSIVE      = YES
 EXAMPLE_PATH           = ../TOOLS/XC02_CTRL/COM/ \
-					   	 ../EXAMPLE/XC02_SIMP/COM/ \
-						 ../DRIVER/COM/
+                         ../EXAMPLE/XC02_SIMP/COM/ \
+                         ../DRIVER/COM/
 OUTPUT_DIRECTORY       = .
 EXTRACT_ALL            = YES
 EXTRACT_STATIC         = YES
