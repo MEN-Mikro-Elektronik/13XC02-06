@@ -197,14 +197,6 @@
 	0 represents the most bright setting and 200 the most dark, dimmed setting.
 
 
-    \n \subsection xc02bc_min   Minimum descriptor
-    xc02bc_min.dsc (see Examples section)\n
-    Demonstrates the minimum set of options necessary for using the driver.
-
-    \n \subsection xc02bc_max   Maximum descriptor
-    xc02bc_max.dsc (see Examples section)\n
-    Shows all possible configuration options for this driver.
-
     \n \section codes XC02 board controller specific GetStat/SetStat codes
 	For the watchdog functionality, the driver supports a subset of the WDOG
 	GetStat/SetStat codes (defined in wdog.h):
@@ -231,8 +223,6 @@
 
 /** \example xc02_simp.c */
 /** \example xc02_ctrl.c */
-/** \example xc02bc_min.dsc */
-/** \example xc02bc_max.dsc */
 
 /*!
   \page xc02dummy MEN logo
