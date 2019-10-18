@@ -54,13 +54,13 @@ Supported API Functions</h2>
 <td><b>API function</b> </td><td><b>Functionality</b> </td><td><b>Corresponding low level function</b><p>
 </td></tr>
 <tr>
-<td><a class="elRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a4">M_open()</a></td><td>Open device </td><td><a class="el" href="xc02__drv_8c.html#a12">XC02_Init()</a> </td></tr>
+<td><a class="elRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a4">M_open()</a></td><td>Open device </td><td><a class="el" href="xc02__drv_8c.html#a13">XC02_Init()</a> </td></tr>
 <tr>
-<td><a class="elRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a9">M_close()</a> </td><td>Close device  </td><td><a class="el" href="xc02__drv_8c.html#a13">XC02_Exit()</a>) </td></tr>
+<td><a class="elRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a9">M_close()</a> </td><td>Close device  </td><td><a class="el" href="xc02__drv_8c.html#a14">XC02_Exit()</a>) </td></tr>
 <tr>
-<td><a class="elRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a13">M_setstat()</a> </td><td>Set device parameter  </td><td><a class="el" href="xc02__drv_8c.html#a16">XC02_SetStat()</a> </td></tr>
+<td><a class="elRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a13">M_setstat()</a> </td><td>Set device parameter  </td><td><a class="el" href="xc02__drv_8c.html#a17">XC02_SetStat()</a> </td></tr>
 <tr>
-<td><a class="elRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a12">M_getstat()</a> </td><td>Get device parameter  </td><td><a class="el" href="xc02__drv_8c.html#a17">XC02_GetStat()</a> </td></tr>
+<td><a class="elRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a12">M_getstat()</a> </td><td>Get device parameter  </td><td><a class="el" href="xc02__drv_8c.html#a18">XC02_GetStat()</a> </td></tr>
 <tr>
 <td><a class="elRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/m__errstr_8c.html#a1">M_errstringTs()</a> </td><td>Generate error message  </td><td>- </td></tr>
 </table>
@@ -121,16 +121,6 @@ The low-level driver initialization routine decodes the following entries ("keys
 <p>
 <dl compact><dt><b>Attention:</b></dt><dd>changes made in the descriptors occur after next power cycle. The brightness values given above are in the range of 0 to 200, where 0 represents the most bright setting and 200 the most dark, dimmed setting.</dd></dl>
 <br>
- <h3><a name="xc02bc_min"></a>
-Minimum descriptor</h3>
-<a class="el" href="xc02bc__min_8dsc.html">xc02bc_min.dsc</a> (see Examples section)<br>
- Demonstrates the minimum set of options necessary for using the driver.<p>
-<br>
- <h3><a name="xc02bc_max"></a>
-Maximum descriptor</h3>
-<a class="el" href="xc02bc__max_8dsc.html">xc02bc_max.dsc</a> (see Examples section)<br>
- Shows all possible configuration options for this driver.<p>
-<br>
  <h2><a name="codes"></a>
 XC02 board controller specific GetStat/SetStat codes</h2>
 For the watchdog functionality, the driver supports a subset of the WDOG GetStat/SetStat codes (defined in <a class="el" href="wdog_8h.html">wdog.h</a>):<ul>
@@ -153,8 +143,7 @@ switches the display off and on and displays a brightness ramp from minimum to m
 <div class="footer">
 <!-- Footer -->
 	<p class="footer">
-	Generated for XC2 (DC1 carrier board) board controller driver using <a href="http://www.doxygen.org">doxygen</a>.<br>
-	Copyright &copy; 2019 <a href="http://www.men.de">MEN Mikro Elektronik GmbH</a>. All Rights Reserved.
+	Generated for XC2 (DC1 carrier board) board controller driver using <a href="http://www.doxygen.org">doxygen</a>. All Rights Reserved.
 	</p>
 </div>
 

@@ -6,7 +6,7 @@
 <UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="__XC02_GetEntry"><param name="Name" value="__XC02_GetEntry"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a25"><param name="Name" value="xc02_drv.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a26"><param name="Name" value="xc02_drv.c"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8h.html#a49"><param name="Name" value="xc02_drv.h"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="_NO_LL_HANDLE"><param name="Name" value="_NO_LL_HANDLE"></OBJECT>
@@ -117,7 +117,7 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="AlarmHandler"><param name="Name" value="AlarmHandler"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a24"><param name="Name" value="xc02_drv.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a25"><param name="Name" value="xc02_drv.c"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="alarmHdl"><param name="Name" value="alarmHdl"></OBJECT>
   <UL>
@@ -138,7 +138,7 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="Cleanup"><param name="Name" value="Cleanup"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a23"><param name="Name" value="xc02_drv.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a24"><param name="Name" value="xc02_drv.c"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="DBG_MYLEVEL"><param name="Name" value="DBG_MYLEVEL"></OBJECT>
   <UL>
@@ -182,7 +182,11 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="Ident"><param name="Name" value="Ident"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a22"><param name="Name" value="xc02_drv.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a23"><param name="Name" value="xc02_drv.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="IdentString"><param name="Name" value="IdentString"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a12"><param name="Name" value="xc02_drv.c"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="idFuncTbl"><param name="Name" value="idFuncTbl"></OBJECT>
   <UL>
@@ -531,11 +535,11 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="XC02_BlockRead"><param name="Name" value="XC02_BlockRead"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a18"><param name="Name" value="xc02_drv.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a19"><param name="Name" value="xc02_drv.c"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="XC02_BlockWrite"><param name="Name" value="XC02_BlockWrite"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a19"><param name="Name" value="xc02_drv.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a20"><param name="Name" value="xc02_drv.c"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="XC02_BR_MULT"><param name="Name" value="XC02_BR_MULT"></OBJECT>
   <UL>
@@ -630,32 +634,33 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html"><param name="Name" value="xc02_drv.c"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a25"><param name="Name" value="__XC02_GetEntry"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a26"><param name="Name" value="__XC02_GetEntry"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a0"><param name="Name" value="_NO_LL_HANDLE"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a4"><param name="Name" value="ADDRSPACE_COUNT"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a5"><param name="Name" value="ADDRSPACE_SIZE"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a24"><param name="Name" value="AlarmHandler"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a25"><param name="Name" value="AlarmHandler"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a2"><param name="Name" value="CH_BYTES"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a1"><param name="Name" value="CH_NUMBER"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a23"><param name="Name" value="Cleanup"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a24"><param name="Name" value="Cleanup"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a7"><param name="Name" value="DBG_MYLEVEL"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a8"><param name="Name" value="DBH"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a6"><param name="Name" value="DEV_ID"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a22"><param name="Name" value="Ident"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a23"><param name="Name" value="Ident"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a12"><param name="Name" value="IdentString"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a11"><param name="Name" value="NO_KEY"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a10"><param name="Name" value="SMB_R_BYTE"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a9"><param name="Name" value="SMB_W_BYTE"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a3"><param name="Name" value="USE_IRQ"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a18"><param name="Name" value="XC02_BlockRead"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a19"><param name="Name" value="XC02_BlockWrite"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a13"><param name="Name" value="XC02_Exit"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a17"><param name="Name" value="XC02_GetStat"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a21"><param name="Name" value="XC02_Info"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a12"><param name="Name" value="XC02_Init"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a20"><param name="Name" value="XC02_Irq"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a14"><param name="Name" value="XC02_Read"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a16"><param name="Name" value="XC02_SetStat"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a15"><param name="Name" value="XC02_Write"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a19"><param name="Name" value="XC02_BlockRead"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a20"><param name="Name" value="XC02_BlockWrite"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a14"><param name="Name" value="XC02_Exit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a18"><param name="Name" value="XC02_GetStat"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a22"><param name="Name" value="XC02_Info"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a13"><param name="Name" value="XC02_Init"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a21"><param name="Name" value="XC02_Irq"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a15"><param name="Name" value="XC02_Read"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a17"><param name="Name" value="XC02_SetStat"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a16"><param name="Name" value="XC02_Write"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8h.html"><param name="Name" value="xc02_drv.h"></OBJECT>
   <UL>
@@ -715,7 +720,7 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="XC02_Exit"><param name="Name" value="XC02_Exit"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a13"><param name="Name" value="xc02_drv.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a14"><param name="Name" value="xc02_drv.c"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="XC02_FIRMWARE_ID"><param name="Name" value="XC02_FIRMWARE_ID"></OBJECT>
   <UL>
@@ -723,7 +728,7 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="XC02_GetStat"><param name="Name" value="XC02_GetStat"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a17"><param name="Name" value="xc02_drv.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a18"><param name="Name" value="xc02_drv.c"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="XC02_GLOBNAME"><param name="Name" value="XC02_GLOBNAME"></OBJECT>
   <UL>
@@ -735,11 +740,11 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="XC02_Info"><param name="Name" value="XC02_Info"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a21"><param name="Name" value="xc02_drv.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a22"><param name="Name" value="xc02_drv.c"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="XC02_Init"><param name="Name" value="XC02_Init"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a12"><param name="Name" value="xc02_drv.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a13"><param name="Name" value="xc02_drv.c"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="XC02_INIT_BRIGHT"><param name="Name" value="XC02_INIT_BRIGHT"></OBJECT>
   <UL>
@@ -747,7 +752,7 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="XC02_Irq"><param name="Name" value="XC02_Irq"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a20"><param name="Name" value="xc02_drv.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a21"><param name="Name" value="xc02_drv.c"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="XC02_KEY_IN_CTRL"><param name="Name" value="XC02_KEY_IN_CTRL"></OBJECT>
   <UL>
@@ -771,11 +776,11 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="XC02_Read"><param name="Name" value="XC02_Read"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a14"><param name="Name" value="xc02_drv.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a15"><param name="Name" value="xc02_drv.c"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="XC02_SetStat"><param name="Name" value="XC02_SetStat"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a16"><param name="Name" value="xc02_drv.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a17"><param name="Name" value="xc02_drv.c"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__simp_8c.html"><param name="Name" value="xc02_simp.c"></OBJECT>
   <UL>
@@ -865,7 +870,7 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="XC02_Write"><param name="Name" value="XC02_Write"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a15"><param name="Name" value="xc02_drv.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="xc02__drv_8c.html#a16"><param name="Name" value="xc02_drv.c"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="XC02C_AUTO_BR_FAK"><param name="Name" value="XC02C_AUTO_BR_FAK"></OBJECT>
   <UL>

@@ -16,8 +16,6 @@ index.html
 files.html
 xc02__ctrl_8c-example.html
 xc02__simp_8c-example.html
-xc02bc__max_8dsc-example.html
-xc02bc__min_8dsc-example.html
 wdog_8h-source.html
 xc02_8h-source.html
 xc02__drv_8h-source.html
@@ -28,8 +26,6 @@ xc02__doc_8c.html
 xc02__drv_8c.html
 xc02__drv_8h.html
 xc02__simp_8c.html
-xc02bc__max_8dsc.html
-xc02bc__min_8dsc.html
 annotated.html
 functions.html
 functions_vars.html

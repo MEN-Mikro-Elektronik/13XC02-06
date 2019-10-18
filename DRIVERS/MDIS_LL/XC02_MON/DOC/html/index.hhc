@@ -14,8 +14,6 @@
   <LI><OBJECT type="text/sitemap"><param name="Name" value="xc02_drv.c"><param name="Local" value="xc02__drv_8c.html"><param name="ImageNumber" value="11"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Name" value="xc02_drv.h"><param name="Local" value="xc02__drv_8h.html"><param name="ImageNumber" value="11"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Name" value="xc02_simp.c"><param name="Local" value="xc02__simp_8c.html"><param name="ImageNumber" value="11"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Name" value="xc02bc_max.dsc"><param name="Local" value="xc02bc__max_8dsc.html"><param name="ImageNumber" value="11"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Name" value="xc02bc_min.dsc"><param name="Local" value="xc02bc__min_8dsc.html"><param name="ImageNumber" value="11"></OBJECT>
   </UL>
 <LI><OBJECT type="text/sitemap"><param name="Name" value="Data Structures"><param name="Local" value="annotated.html"><param name="ImageNumber" value="1"></OBJECT>
   <UL>
@@ -42,8 +40,6 @@
   <UL>
   <LI><OBJECT type="text/sitemap"><param name="Name" value="xc02_ctrl.c"><param name="Local" value="xc02__ctrl_8c-example.html"><param name="ImageNumber" value="11"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Name" value="xc02_simp.c"><param name="Local" value="xc02__simp_8c-example.html"><param name="ImageNumber" value="11"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Name" value="xc02bc_max.dsc"><param name="Local" value="xc02bc__max_8dsc-example.html"><param name="ImageNumber" value="11"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Name" value="xc02bc_min.dsc"><param name="Local" value="xc02bc__min_8dsc-example.html"><param name="ImageNumber" value="11"></OBJECT>
   </UL>
 <LI><OBJECT type="text/sitemap"><param name="Name" value="Globals"><param name="Local" value="globals.html"><param name="ImageNumber" value="11"></OBJECT>
 <LI><OBJECT type="text/sitemap"><param name="Name" value="Related Pages"><param name="Local" value="pages.html"><param name="ImageNumber" value="1"></OBJECT>
