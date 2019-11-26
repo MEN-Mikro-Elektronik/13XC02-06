@@ -12,7 +12,7 @@
  */
  /*
  *---------------------------------------------------------------------------
- * Copyright (c) 2005-2019, MEN Mikro Elektronik GmbH
+ * Copyright 2005-2019, MEN Mikro Elektronik GmbH
  ****************************************************************************/
 /*
 * This program is free software: you can redistribute it and/or modify
